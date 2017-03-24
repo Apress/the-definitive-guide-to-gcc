@@ -1,0 +1,273 @@
+<HTML>
+<HEAD>
+  <TITLE>
+     Errata for "The Definitive Guide to GCC"
+  </TITLE>
+</HEAD>
+<BODY>
+
+<H2>
+  <CENTER>
+     Errata for "The Definitive Guide to GCC"<BR>
+     by Bill von Hagen and Kurt Wall<BR>
+	 ISBN: 1-59059-109-7
+  </CENTER>
+</H2>
+
+<P>
+</P>
+
+<TABLE BORDER=ON>
+  <TR>
+    <TH>
+      Page
+    </TH>
+    <TH>
+      Problem(s)
+    </TH>
+	<TH>
+	  Our Thanks To:
+	</TH>
+  </TR>
+  <TR>
+    <TD>
+      Page xxiii from sample chapter.pdf
+    </TD>
+    <TD>
+      Richard Stallman used po (a portable peephole optimizer that
+      performed optimizations generally done by high level optimizers
+      in addition to those by low level peephole optimizers) as a
+      starting point for the GCC optimizer. GCC and the sucessor to
+      po, vpo, both still use RTL (register transfer list/language) as
+      their intermediate language/form.
+    </TD>
+	<TD>
+	  Nathan Moore (moore_mn@cobra.cs.mercer.edu)
+	</TD>
+  </TR>
+  <TR>
+    <TD>
+	  25
+    </TD>
+	<TD>
+	  Missing ')' in printf
+	</TD>
+	<TD>
+      Ken Weinert (mc@quarter-flash.com)
+	</TD>
+   </TR>
+   <TR>
+     <TD>
+	   26
+	 </TD>
+	 <TD>
+	   Missing ')' in printf. Printf is capitalized. (style) no space
+       after "hoisted."
+     </TD>
+	 <TD>
+       Ken Weinert (mc@quarter-flash.com)
+	 </TD>
+   </TR>
+   <TR>
+     <TD>
+	   80
+     </TD>
+	 <TD>
+	   Missing -I before second include path. The entire example is
+       absolutely incorrect. You can't have the same directory name in
+       the include path and in the #include statement. 
+     </TD>
+	 <TD>
+       Ken Weinert (mc@quarter-flash.com)
+	 </TD>
+   </TR>
+   <TR>
+     <TD>
+       91
+     </TD>
+     <TD>
+       "%ds"  -->   "%s"
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       110
+     </TD>
+     <TD>
+       label__  -->  --label__
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       124
+     </TD>
+     <TD>
+       __attribute  -->  __attribute__
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       127
+     </TD>
+     <TD>
+       The 'a' in last #pragma should be in code font.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       137
+     </TD>
+     <TD>
+       Missing ';' in 2nd for loop
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       142
+     </TD>
+     <TD>
+       Loop given will be a = 57
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       151
+     </TD>
+     <TD>
+       Code formatting problems in both examples. 2nd "if" is missing ')'.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       194
+     </TD>
+     <TD>
+       bconfig.status  -->  config.status (9th line up)
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+    </TR>
+   <TR>
+     <TD>
+       260
+     </TD>
+     <TD>
+       '*' in ISO should not be a bullet.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       261
+     </TD>
+     <TD>
+       Example doesn't match text (it should say can't, not cannot).
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       262
+     </TD>
+     <TD>
+       Objective C should be added to list of supplied compilers.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       270
+     </TD>
+     <TD>
+       Missing "not", last sentence, next to last paragraph.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       291
+     </TD>
+     <TD>
+       'class --> .class in the -fdump-class-hierarchy discussion.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       304
+     </TD>
+     <TD>
+       The -fPIC discussion should have -fpic instead of -fPIC.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       305
+     </TD>
+     <TD>
+       In -fpretend-float discussion, correctly --> incorrectly.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       337
+     </TD>
+     <TD>
+       In -shared-libgcc discussion, libgscc.a  --> libgcc.a.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+   <TR>
+     <TD>
+       380
+     </TD>
+     <TD>
+       amusing --> amusingly  and there shouldn't be a font change.
+     </TD>
+     <TD>
+       Ken Weinert (mc@quarter-flash.com)
+     </TD>
+   </TR>
+ </TABLE>
+</BODY>
+</HTML>
